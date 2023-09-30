@@ -1,0 +1,385 @@
+.container {
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Slider Window */
+
+.slider {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+}
+
+.slide1 {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.slide1_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 60px;
+}
+
+.slide1_description h3 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.slide1_description p {
+    font-size: 16px;
+    margin: 15px 5px;
+}
+
+.slide2 {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.slide2_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 60px;
+}
+
+.slide2_description h3 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.slide2_description p {
+    font-size: 16px;
+    margin: 15px 5px;
+}
+
+.slide3 {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.slide3_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 60px;
+}
+
+.slide3_description h3 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.slide3_description p {
+    font-size: 16px;
+    margin: 15px 5px;
+}
+
+/* Band Window */
+
+.band_container {
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.band_container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 5px 0px;
+}
+
+.p-opacity {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 5px;
+    opacity: 0.7;
+}
+
+.justify-content {
+    text-align: justify;
+    margin: 20px 30px;
+    font-size: 16px;
+}
+
+.image_box {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.img_card {
+    width: 250px;
+    margin: 10px 25px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.18);
+}
+
+.img_card p {
+    text-align: center;
+}
+
+/* Tour Window */
+
+.tour_container {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+
+.tour_head h2 {
+    margin: 10px 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.tour_head p {
+    margin: 5px 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.7;
+    color: white;
+}
+
+.ticket_status_box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.month1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.month2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.month3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opa-month {
+    opacity: 0.7;
+    margin: 5px;
+    padding: 5px;
+}
+
+.status_color {
+    background-color: red;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+}
+
+.radius {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    margin: 0px 10px;
+}
+
+hr {
+    color: white;
+}
+
+.ticket_card_box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ticket_card {
+    width: 250px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1), 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ticket_card h3 {
+    margin: 5px;
+}
+
+.ticket_card p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+.date {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.tc-p {
+    text-align: justify;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.btn_ticket {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 0%;
+    border: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Contect Section */
+.contect_box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contect_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.contect_head h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.contect_head p {
+    opacity: 0.7;
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.contect_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.contect_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contect_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.contect_info p {
+    margin: 0px 10px;
+}
+
+.input_box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.name_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.name_box input {
+    width: 50%;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.input_box button {
+    display: inline-block;
+    padding: 10px 20px;
+    align-self: flex-end;
+    border-radius: 0%;
+    border: none;
+    margin: 5px 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Map Section */
+
+.map {
+    width: 100%;
+    margin: 10px 0px;
+}

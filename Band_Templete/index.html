@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.Css Templete</title>
+    <link rel="stylesheet" href="/Css/navbar.css">
+    <link rel="stylesheet" href="/Css/responsive.css">
+    <link rel="stylesheet" href="/Css/Container.css">
+    <link rel="stylesheet" href="/Css/footer.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <!-- Style For device Which has max-width:2000px-->
+            <div class="nav_items">
+                <div class="nav_item1">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Band</a></li>
+                        <li><a href="">Tour</a></li>
+                        <li><a href="">Contect</a></li>
+                    </ul>
+                </div>
+                <div class="nav_item2">
+                    <a href="">More</a>
+                    <i class="fa-solid fa-caret-down fa-sm"></i>
+                    <div class="more_content">
+                        <a href="">Mearchendise</a>
+                        <a href="">Media</a>
+                        <a href="">Extras</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_item3">
+                <i class="fa-solid fa-magnifying-glass fa-sm" style="color: #ffffff;"></i>
+            </div>
+            <!-- Style For device Which has max-width:700px-->
+            <div class="home">
+                <a href="">Home</a>
+            </div>
+            <div class="dropdown_menu">
+                <a href=""><i class="fa-solid fa-bars fa-sm"></i></a>
+                <div class="dropdown_content">
+                    <a href="">Band</a>
+                    <a href="">Tour</a>
+                    <a href="">Contect</a>
+                    <a href="">Merch</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <!-- Slider Window -->
+            <div class="slider">
+                <div class="slide1">
+                    <img src="/Images/slide_img1.jpg" alt="Chiago band img" width="100%">
+                    <div class="slide1_description">
+                        <h3>Chicago</h3>
+                        <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+                    </div>
+                </div>
+                <div class="slide2">
+                    <img src="/Images/slide_img2.jpg" alt="Newyork band img" width="100%">
+                    <div class="slide2_description">
+                        <h3>New York</h3>
+                        <p><b>The atmosphere in New York is very enthusiastic.</b></p>
+                    </div>
+                </div>
+                <div class="slide3">
+                    <img src="/Images/slide_img3.jpg" alt="Los Angeles band img" width="100%">
+                    <div class="slide3_description">
+                        <h3>Los Angeles</h3>
+                        <p><b>We had the best time playing at Venice Beach!</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Band Section -->
+            <div class="band_container">
+                <h2>The Band</h2>
+                <p class="p-opacity">We love music</p>
+                <p class="justify-content">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="image_box">
+                    <div class="img_card">
+                        <p>Name</p>
+                        <img src="/Images/band_card_img.jpg" alt="band-card img" width="100%">
+                    </div>
+                    <div class="img_card">
+                        <p>Name</p>
+                        <img src="/Images/band_card_img.jpg" alt="band-card img" width="100%">
+                    </div>
+                    <div class="img_card">
+                        <p>Name</p>
+                        <img src="/Images/band_card_img.jpg" alt="band-card img" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour Section-->
+            <div class="tour_container">
+                <div class="tour_head">
+                    <h2>Tour Dates</h2>
+                    <p>Remembar to book your tickets</p>
+                </div>
+                <div class="ticket_status_box">
+                    <div class="month1">
+                        <p class="opa-month">Septembar</p>
+                        <p class="status_color">Sold Out</p>
+                    </div>
+                    <hr>
+                    <div class="month2">
+                        <p class="opa-month">Octobar</p>
+                        <p class="status_color">Sold Out</p>
+                    </div>
+                    <hr>
+                    <div class="month3">
+                        <p class="opa-month">Novembar</p>
+                        <p class="radius">3</p>
+                    </div>
+                </div>
+                <div class="ticket_card_box">
+                    <div class="ticket_card">
+                        <img src="/Images/ticket_card_img1.jpg" alt="" width="100%">
+                        <h3>New York</h3>
+                        <p class="date">Fri 27 Nov 2016</p>
+                        <p class="tc-p">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn_ticket">Buy Tickets</button>
+                    </div>
+                    <div class="ticket_card">
+                        <img src="/Images/ticket_card_img2.jpg" alt="" width="100%">
+                        <h3>Paris</h3>
+                        <p class="date">Sat 28 Nov 2016</p>
+                        <p class="tc-p">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn_ticket">Buy Tickets</button>
+                    </div>
+                    <div class="ticket_card">
+                        <img src="/Images/ticket_card_img3.jpg" alt="" width="100%">
+                        <h3>San Francisco</h3>
+                        <p class="date">Sun 29 Nov 2016</p>
+                        <p class="tc-p">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn_ticket">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contect Section -->
+            <div class="contect_box">
+                <div class="contect_head">
+                    <h2>Contect</h2>
+                    <p>Fan?Drop a Note!</p>
+                </div>
+                <div class="contect_section">
+                    <div class="contect_details">
+                        <div class="contect_info">
+                            <i class="fa-solid fa-location-dot fa-lg"></i>
+                            <p>Chicago, US</p>
+                        </div>
+                        <div class="contect_info">
+                            <i class="fa-solid fa-phone fa-lg"></i>
+                            <p> Phone: +00 151515</p>
+                        </div>
+                        <div class="contect_info">
+                            <i class="fa-solid fa-envelope fa-lg"></i>
+                            <p>Email:xyz@mail.com</p>
+                        </div>
+                    </div>
+                    <div class="input_box">
+                        <div class="name_box">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <input type="text" placeholder="Message">
+                        <button>Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map">
+                <img src="/Images/map_img.jpg" alt="band_map-location" width="100%">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_box">
+            <div class="icon_box">
+                <i class="fa-brands fa-square-facebook fa-lg"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
+                <i class="fa-brands fa-square-snapchat fa-lg"></i>
+                <i class="fa-brands fa-pinterest fa-lg"></i>
+                <i class="fa-brands fa-twitter fa-lg"></i>
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+            </div>
+            <p>Powered by w3.css</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a879116811.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

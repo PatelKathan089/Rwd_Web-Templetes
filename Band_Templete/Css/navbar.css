@@ -1,0 +1,113 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header .navbar {
+    max-width: 2000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.nav_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.nav_item1 ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.nav_item1 a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_item1 ul li:hover a {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.nav_item2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.nav_item2 a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_item2 i {
+    color: white;
+}
+
+.more_content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2),0px 5px 25px 0px rgba(0, 0, 0, 0.18);
+    background-color: white;
+    z-index: 1;
+}
+
+.nav_item2:hover .more_content {
+    display: block;
+}
+
+.nav_item2:hover {
+    background-color: white;
+    padding: 5px;
+}
+
+.nav_item2:hover a {
+    color: black;
+}
+
+.nav_item2:hover i {
+    color: black;
+    transform: rotate(0.5turn);
+}
+
+.more_content a {
+    display: block;
+    color: black;
+    margin: 10px 0px 0px;
+    padding: 5px;
+}
+
+.more_content a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav_item3 {
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.nav_item3:hover {
+    background-color: red;
+}
+
+.home,.dropdown_menu {
+    display: none;
+}

@@ -1,0 +1,206 @@
+/* Media Queries For Screen Size For Max-Width: 900px */
+
+@media screen and (max-width: 900px) {
+
+    .slide1 .slide1_description {
+        display: none;
+    }
+
+    .slide2 .slide2_description {
+        display: none;
+    }
+
+    .slide3 .slide3_description {
+        display: none;
+    }
+
+    .image_box .img_card {
+        width: 200px;
+        margin: 10px 20px;
+    }
+}
+
+/* Media Queries For Screen Size Max-Width: 830px */
+@media screen and (max-width: 830px) {
+
+    /* Tour Section */
+    .tour_container .ticket_card_box {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ticket_card_box .ticket_card {
+        width: 200px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1), 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+        margin: 5px 0px;
+    }
+
+    /* Contect Section */
+
+    .contect_box .name_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+    }
+
+    .contect_box .name_box input {
+        width: 100%;
+        margin: 5px 0px;
+    }
+}
+
+/* Media Queries For Screen Size For Max-Width:700px */
+
+@media screen and (max-width: 700px) {
+
+    header .navbar {
+        max-width: 700px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        position: relative;
+    }
+
+    .nav_items,
+    .nav_item3 {
+        display: none;
+    }
+
+    .home {
+        display: block;
+        padding: 5px;
+    }
+
+    .home a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .home:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .home:hover a {
+        color: black;
+    }
+
+    .dropdown_menu {
+        display: block;
+        padding: 5px;
+    }
+
+    .dropdown_menu a i {
+        color: white;
+    }
+
+    .dropdown_content {
+        width: 100%;
+        display: none;
+        background-color: black;
+        position: absolute;
+        left: 0px;
+        top: 37px;
+        z-index: 1;
+    }
+
+    .dropdown_content a {
+        display: block;
+        padding: 5px;
+        margin: 5px 23px;
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .dropdown_menu:hover .dropdown_content {
+        display: block;
+    }
+
+    .dropdown_menu:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .dropdown_menu:hover a i {
+        color: black;
+    }
+
+    .dropdown_content a:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+    }
+
+    /* Band Section */
+
+    .band_container {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .justify-content {
+        width: 100%;
+        text-align: justify;
+        margin: 20px 30px;
+        font-size: 16px;
+    }
+
+    .band_container .image_box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .image_box .img_card {
+        width: 250px;
+    }
+
+    /* Tour Section */
+    .tour_container .ticket_card_box {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ticket_card_box .ticket_card {
+        width: 300px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1), 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+        margin: 10px 0px;
+    }
+
+    /* Contect Section */
+
+    .contect_box .contect_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contect_box .input_box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+    
