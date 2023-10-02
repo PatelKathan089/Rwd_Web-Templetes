@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+    
+    .navbar a {
+        letter-spacing: 0px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .container .image_Container {
+       display: none;
+    }
+
+    .container .m-img_container {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        row-gap: 5px;
+        padding: 10px;
+    }
+}

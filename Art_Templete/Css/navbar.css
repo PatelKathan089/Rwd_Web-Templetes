@@ -1,0 +1,23 @@
+.navbar {
+    max-width: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 0px 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+}
