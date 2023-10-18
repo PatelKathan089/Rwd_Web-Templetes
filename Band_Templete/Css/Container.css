@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    overflow: auto;
+    overflow: clip;
 }
 
 .slide1 {
@@ -21,6 +21,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    animation: slide 5s ease-in-out infinite alternate;
 }
 
 .slide1_description {
@@ -49,6 +50,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    animation: slide 5s ease-in-out infinite alternate;
 }
 
 .slide2_description {
@@ -77,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    animation: slide 5s ease-in-out infinite alternate;
 }
 
 .slide3_description {
@@ -97,6 +100,23 @@
 .slide3_description p {
     font-size: 16px;
     margin: 15px 5px;
+}
+
+/* Slide Animation Keyframe:- */
+
+@keyframes slide {
+
+    0% {
+        transform: translate(0%, 0%);
+    }
+
+    50% {
+        transform: translate(-100%, 0%);
+    }
+
+    100% {
+        transform: translate(-200%, 0%);
+    }
 }
 
 /* Band Window */
@@ -344,7 +364,7 @@ hr {
     width: 60%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .name_box {
