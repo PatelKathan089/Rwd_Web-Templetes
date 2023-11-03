@@ -2,15 +2,7 @@
 
 @media screen and (max-width: 900px) {
 
-    .slide1 .slide1_description {
-        display: none;
-    }
-
-    .slide2 .slide2_description {
-        display: none;
-    }
-
-    .slide3 .slide3_description {
+    .slide .slide_description {
         display: none;
     }
 
