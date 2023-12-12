@@ -1,0 +1,433 @@
+.main {
+  width: 100%;
+  height: 700px;
+  background-image: url("Assets/Images/netflix_background.jpg");
+  background-color: rgba(0, 0, 0, 0.69);
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1240px, 100vw);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.buttons select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+.buttons button {
+  padding: 5px 10px;
+  background-color: red;
+}
+
+.main-content {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.mc-head {
+  font-weight: 900;
+  font-size: 47px;
+}
+
+.mc-p {
+  font-size: 24px;
+}
+
+.mc-h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.mc-form-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 10px;
+}
+
+.mc-form-actions .form-control {
+  width: 350px;
+  background-color: transparent;
+  color: white;
+}
+
+.mc-form-actions button {
+  display: flex;
+  background-color: red;
+  color: white;
+  padding: 10px 30px;
+  gap: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.divider {
+  margin: 0px;
+  height: 10px !important;
+  background-color: rgb(36 36 36);
+}
+
+.section {
+  width: 100%;
+  padding: 70px 0px;
+  background-color: black;
+  color: white;
+}
+
+.block1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.block-content h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.block-content p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.img-block1 {
+  width: 503px;
+  height: 381px;
+  position: relative;
+}
+
+.img-block1 img {
+  position: relative;
+  z-index: 10;
+}
+
+.video1 {
+  width: 77%;
+  position: absolute;
+  top: 50px;
+  left: 45px;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-block2 {
+  position: relative;
+}
+
+.moblie_content {
+  width: 300px;
+  padding: 8px;
+  background-color: black;
+  border: 2px solid rgb(166 166 166);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 110px;
+}
+
+.m_img {
+  width: 50px;
+}
+
+.m_img-content {
+}
+
+.animated_m-img {
+  border: 2px solid yellowgreen;
+}
+
+.img-block3 {
+  position: relative;
+}
+
+.img-block3 img {
+  position: relative;
+  z-index: 20;
+}
+
+.video2 {
+  width: 63%;
+  position: absolute;
+  top: 28px;
+  left: 68px;
+  z-index: 5;
+}
+
+/* Collapsiable Questions Section:- */
+.section3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0px;
+  background-color: black;
+  gap: 25px;
+}
+
+.section3 h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.question-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  padding: 20px 10px;
+  background-color: rgb(44 44 44);
+}
+
+.card-header a {
+  font-size: 24px;
+  font-weight: 600;
+  color: white !important;
+}
+
+.card-body {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.form2 .form-control {
+  width: 350px;
+  background-color: transparent;
+  color: white;
+}
+
+/* Footer Section:- */
+.footer {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-head {
+  display: inline-flex;
+  gap: 10px;
+  margin: 0px 76px;
+}
+
+.grid {
+  padding: 10px;
+}
+
+.lg-device-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px;
+  margin: 15px 0px;
+}
+
+.sm-device-grid {
+  display: none;
+}
+
+.sm-device-grid .col {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
+
+.row {
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.footer-note {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0px 85px;
+}
+
+.footer-note select {
+  padding: 5px 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Media Queries For Responsive Layout:- */
+@media only screen and (max-width: 1200px) {
+  .img-block1 img {
+    top: 45px;
+  }
+  .video1 {
+    top: 82px;
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .mc-head {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .mc-p,
+  .mc-h3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .block1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .block-content p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .img-block1 img {
+    top: 0;
+  }
+
+  .video1 {
+    top: 17%;
+    left: 10%;
+  }
+
+  .block2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video2 {
+    top: 8%;
+    left: 18%;
+  }
+
+  .footer-head {
+    display: block;
+    margin: 0px 30px 10px 30px;
+    text-align: justify;
+  }
+
+  .lg-device-grid {
+    display: none;
+  }
+
+  .sm-device-grid {
+    display: flex;
+  }
+
+  .footer-note {
+    margin: 30px 90px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .mc-form-actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mc-form-actions button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    width: 89px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .img-block2 {
+    width: 300px;
+  }
+
+  .img-block2 img {
+    width: 100%;
+  }
+
+  .moblie_content {
+    width: 200px;
+    bottom: 20px;
+    left: 48px;
+  }
+
+  .m_img {
+    width: 30px;
+  }
+
+  .m_img-content {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .img-block1 {
+    width: 270px;
+    height: 203px;
+  }
+
+  .video1 {
+    top: 35px;
+    left: 25px;
+  }
+}
